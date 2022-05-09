@@ -80,4 +80,10 @@
 #define ID_SPRITE_CLOUD_MIDDLE (ID_SPRITE_CLOUD+2000)
 #define ID_SPRITE_CLOUD_END (ID_SPRITE_CLOUD+3000)
 
+#define ID_SPRITE_Misbox 60000
+#define ID_SPRITE_Misbox1 (ID_SPRITE_Misbox+1)
+#define ID_SPRITE_Misbox2 (ID_SPRITE_Misbox+2)
+#define ID_SPRITE_Misbox3 (ID_SPRITE_Misbox+3)
+#define ID_SPRITE_Misbox4 (ID_SPRITE_Misbox+4)
+
 

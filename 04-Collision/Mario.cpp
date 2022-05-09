@@ -32,10 +32,10 @@ void CMario::OnNoCollision(DWORD dt)
 {
 	x += vx * dt;
 	y += vy * dt;
-	//if (y >20.0f)
-	//{
-		//SetState(MARIO_STATE_DIE);
-  // }
+	if (y >180.0f)
+	{
+		SetState(MARIO_STATE_DIE);
+   }
 }
 
 void CMario::OnCollisionWith(LPCOLLISIONEVENT e)
@@ -67,6 +67,7 @@ void CMario::OnCollisionWithGoomba(LPCOLLISIONEVENT e)
 		if (goomba->GetState() != GOOMBA_STATE_DIE)
 		{
 			goomba->SetState(GOOMBA_STATE_DIE);
+
 			vy = -MARIO_JUMP_DEFLECT_SPEED;
 		}
 	}
