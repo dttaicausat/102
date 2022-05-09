@@ -383,7 +383,7 @@ void ClearScene()
 	objects.clear();
 }
 
-#define MARIO_START_X 20.0f
+#define MARIO_START_X 10.0f
 #define MARIO_START_Y 10.0f
 
 #define BRICK_X 0.0f

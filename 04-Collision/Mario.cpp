@@ -32,6 +32,10 @@ void CMario::OnNoCollision(DWORD dt)
 {
 	x += vx * dt;
 	y += vy * dt;
+	//if (y >20.0f)
+	//{
+		//SetState(MARIO_STATE_DIE);
+  // }
 }
 
 void CMario::OnCollisionWith(LPCOLLISIONEVENT e)
